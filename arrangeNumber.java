@@ -10,11 +10,11 @@ public class arrangeNumber {
 				int j=1;
 				for(j=0; j<=size-1;j=j+2) {
 					
-					System.out.print(intArray[j]+" ");
+					System.out.print(intArray[j]+"    ");
 				}
 
 				for(int l=size-1; l>=0;l=l-2) {
-					System.out.print(intArray[l]+" ");
+					System.out.print(intArray[l]+"   ");
 						
 				}
 			}
